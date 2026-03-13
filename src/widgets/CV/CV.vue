@@ -24,13 +24,20 @@ import SocialList from "./components/SocialList.vue";
   flex-direction: column;
   gap: 32px;
   flex: 1;
-  width: min(982px, 100%);
+  width: min(768px, 100%);
   margin: 0 auto;
   padding: 12px;
   background-color: var(--background-primary);
   border-left: 1px solid var(--border-primary);
   border-right: 1px solid var(--border-primary);
   line-height: 120%;
+}
+
+@media (max-width: 768px) {
+  .cv {
+    border-left: none;
+    border-right: none;
+  }
 }
 
 .title {
