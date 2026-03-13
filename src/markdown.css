@@ -1,0 +1,108 @@
+.markdown {
+	line-height: 1.7;
+	font-weight: 400;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4 {
+	font-weight: 600;
+	line-height: 1.25;
+}
+
+.markdown h1 {
+	font-size: 2rem;
+}
+
+.markdown h2 {
+	font-size: 1.6rem;
+}
+
+.markdown h3 {
+	font-size: 1.3rem;
+}
+
+.markdown h4 {
+	font-size: 1.1rem;
+}
+
+.markdown p {
+	margin-bottom: 1rem;
+}
+
+.markdown a {
+	color: inherit;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+.markdown ul,
+.markdown ol {
+	padding-left: 1.4rem;
+	margin-bottom: 1rem;
+}
+
+.markdown li {
+	margin-bottom: 0.35rem;
+}
+
+.markdown code {
+	background: var(--background-secondary);
+	padding: 2px 6px;
+	border-radius: 6px;
+}
+
+.markdown pre {
+	background: var(--background-secondary);
+	padding: 1rem;
+	border-radius: 10px;
+	overflow-x: auto;
+	margin-bottom: 1rem;
+}
+
+.markdown pre code {
+	background: none;
+	padding: 0;
+}
+
+.markdown blockquote {
+	border-left: 3px solid var(--border-secondary);
+	padding-left: 1rem;
+	color: color-mix(in oklab, var(--font-color-primary) 70%, transparent);
+	margin: 1rem 0;
+}
+
+.markdown hr {
+	border: none;
+	border-top: 1px solid var(--border-secondary);
+	margin: 4px 0;
+}
+
+.markdown table {
+	border-collapse: collapse;
+	margin-bottom: 1rem;
+}
+
+.markdown th,
+.markdown td {
+	border: 1px solid var(--border-secondary);
+	padding: 6px 10px;
+}
+
+.markdown th {
+	background: var(--background-secondary);
+}
+
+.markdown img {
+	max-width: 100%;
+	border-radius: 8px;
+}
+
+.markdown strong {
+	font-weight: 600;
+}
+
+.markdown em {
+	font-style: italic;
+}
