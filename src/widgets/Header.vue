@@ -2,10 +2,11 @@
 import ToggleTheme from "@/shared/ui/ToggleTheme.vue";
 import data from "@/cv.json";
 
-const socialLinks = data.social_list.filter(link => 
-  !link.href.startsWith('tel:') && 
-  !link.href.includes('mailto:') &&
-  !link.href.includes('https://www.google.com/')
+const socialLinks = data.social_list.filter(
+	(link) =>
+		!link.href.startsWith("tel:") &&
+		!link.href.includes("mailto:") &&
+		!link.href.includes("https://www.google.com/"),
 );
 </script>
 
@@ -24,8 +25,8 @@ const socialLinks = data.social_list.filter(link =>
         <ToggleTheme />
       </li>
       <li>
-        <a href="/public/data/cv.pdf" download title="Скачать CV" class="download-cv">
-          <img src="/public/icons/download.svg" alt="Download CV icon" />
+        <a href="/cv.pdf" download title="Скачать CV" class="download-cv">
+          <img src="/icons/download.svg" alt="Download CV icon" />
         </a>
       </li>
     </ul>
@@ -40,7 +41,9 @@ const socialLinks = data.social_list.filter(link =>
   justify-content: space-between;
   top: 0;
   padding: 12px 24px;
-  background-color: var(--background-primary);
+  background-color: color-mix(in oklab, var(--background-primary) 82%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-primary);
   z-index: 999;
 }

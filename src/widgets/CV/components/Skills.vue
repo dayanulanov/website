@@ -24,6 +24,7 @@ const skills = data.skills;
 .skills ul {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
   list-style: none;
   line-height: 150%;
