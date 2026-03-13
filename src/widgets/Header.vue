@@ -1,12 +1,18 @@
 <script setup lang="ts">
-import ToggleTheme from "@/shared/ToggleTheme.vue";
-import data from "../../public/data/links.json";
+import ToggleTheme from "@/shared/ui/ToggleTheme.vue";
+import data from "@/cv.json";
+
+const socialLinks = data.social_list.filter(link => 
+  !link.href.startsWith('tel:') && 
+  !link.href.includes('mailto:') &&
+  !link.href.includes('https://www.google.com/')
+);
 </script>
 
 <template>
   <header class="header">
     <ul class="list">
-      <li v-for="link in data.links" :key="link.href">
+      <li v-for="link in socialLinks" :key="link.href">
         <a :href="link.href" :title="link.title" target="_blank">
           <img :src="link.src" :alt="`${link.title} icon`" />
         </a>
@@ -36,6 +42,7 @@ import data from "../../public/data/links.json";
   padding: 12px 24px;
   background-color: var(--background-primary);
   border-bottom: 1px solid var(--border-primary);
+  z-index: 999;
 }
 
 .list {

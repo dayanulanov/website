@@ -1,0 +1,164 @@
+{
+	"head": {
+		"full_name": "Данияр Шаршенбаев",
+		"job": "Фронтенд разработчик & UXUI Дизайнер"
+	},
+	"social_list": [
+		{
+			"href": "https://t.me/causeofwar",
+			"title": "Telegram",
+			"src": "/icons/telegram.svg",
+			"name": "@causeofwar"
+		},
+		{
+			"href": "https://bsky.app/profile/dayanulanov.bsky.social",
+			"title": "Bluesky",
+			"src": "/icons/bluesky.svg",
+			"name": "@dayanulanov"
+		},
+		{
+			"href": "https://github.com/dayanulanov",
+			"title": "Github",
+			"src": "/icons/github.svg",
+			"name": "dayanulanov"
+		},
+		{
+			"href": "mailto:causewar@gmail.com",
+			"title": "Gmail",
+			"src": "/icons/gmail.svg",
+			"name": "causewar@gmail.com"
+		},
+		{
+			"href": "tel:+996556600887",
+			"title": "Номер",
+			"src": "/icons/phone.svg",
+			"name": "+996 556 600 887"
+		},
+		{
+			"href": "https://www.google.com/maps?q=Bishkek",
+			"title": "Локация",
+			"src": "/icons/map-pin.svg",
+			"name": "Бишкек"
+		}
+	],
+	"about_me": {
+		"title": "Обо мне",
+		"experience_years": "3+ года опыта",
+		"description": "Фронтенд разработчик с {exp} в создании веб-приложений с микросервисной архитектурой: CRM, e-commerce а так же специализирующийся на FinTech и сложных SaaS-продуктах.",
+		"skills_text": "Знания React, Next.js, Vue3, GraphQL, TypeScript и UI/UX-дизайна.",
+		"philosophy": "Специализируюсь на проектировании масштабируемой фронтенд-архитектуры. Эффективно работаю в кросс-функциональных командах, обеспечивая качественный и поддерживаемый код.",
+		"accent_words": [
+			"3+ годами опыта",
+			"CRM",
+			"FinTech",
+			"SaaS-продуктах",
+			"React, Next.js, Vue3, GraphQL, TypeScript и UI/UX-дизайна"
+		]
+	},
+	"skills": {
+		"title": "Навыки",
+		"list": [
+			"JavaScript",
+			"Typescript",
+			"React",
+			"Nextjs",
+			"Vue3",
+			"Zustand",
+			"Redux",
+			"Toolkit",
+			"Scss",
+			"Tailwind",
+			"MUI",
+			"Ant",
+			"Design",
+			"GraphQL"
+		]
+	},
+	"experience": {
+		"title": "Опыт работы",
+		"items": [
+			{
+				"company": "Optima Bank",
+				"role": "Фронтенд разработчик",
+				"period": "01/06/2025 - Наст. время",
+				"tech_stack": "Vue3, GraphQL, Scss, Typescript, Apollo",
+				"tasks": [
+					"Разрабатывал и поддерживал внутренние банковские системы для документооборота и управления сейфовыми ячейками.",
+					"Создал административный интерфейс для управления сейфовыми ячейками, включая операции, тарифы и управление залогами.",
+					"Переработал чат-систему, улучшив UX и реализовав новые функции (emoji, sticky span, блокировка редактирования).",
+					"Реализовал кастомный Markdown-редактор с функционалом, аналогичным GitLab.",
+					"Оптимизировал работу с файлами: валидация размера, устранение дублирования и сжатие файлов.",
+					"Улучшил UX системы: избранные документы, метки, дерево категорий, адаптивные интерфейсы и skeleton-загрузку.",
+					"Проводил code review, участвовал в поддержке production и исправлении багов."
+				]
+			},
+			{
+				"company": "Geek studio",
+				"role": "Фронтенд разработчик",
+				"period": "01/05/2024 - 01/06/2025",
+				"tech_stack": "React, Next.js, TypeScript, Redux Toolkit, TailwindCSS, Shadcn UI, TanStack Query, MUI",
+				"tasks": [
+					"Провел миграцию проекта на Vite, SWR и Redux Toolkit, сократив время загрузки страниц на 20–25%.",
+					"Интегрировал платежную систему FreedomPay, реализовав полный цикл подключения бизнес-профиля: от оплаты до активации.",
+					"Решал проблемы legacy-библиотек, повышая стабильность и производительность проекта.",
+					"Разработал конструктор шаблонов документов в микросервисной архитектуре.",
+					"Реализовал rich-text editor и поддержку многоязычных шаблонов (i18n).",
+					"Интегрировал API-контракты и code generation, ускорив разработку и уменьшив количество ошибок."
+				]
+			},
+			{
+				"company": "AVN Soft",
+				"role": "Фронтенд разработчик",
+				"period": "01/05/2022 - 01/05/2024",
+				"tech_stack": "React, JavaScript, Redux, Webpack",
+				"tasks": [
+					"Реализовал ключевые функции: Kanban-доски, управление задачами, подзадачи, группировку задач, чат и вложенные таблицы данных.",
+					"Провел миграцию с классовых компонентов на функциональные, улучшив поддерживаемость кода.",
+					"Обновил UI системы (sidebar, чат, карточки задач, таблицы) в соответствии с новым дизайном.",
+					"Оптимизировал производительность интерфейса, особенно рендеринг сложных таблиц.",
+					"Разработал переиспользуемые вложенные таблицы на основе headless-подхода."
+				]
+			}
+		],
+		"accent_words": [
+			"Vue3",
+			"GraphQL",
+			"Scss",
+			"Typescript",
+			"Apollo",
+			"React",
+			"Next.js",
+			"TypeScript",
+			"Redux Toolkit",
+			"TailwindCSS",
+			"Shadcn UI",
+			"TanStack Query",
+			"MUI",
+			"JavaScript",
+			"Redux",
+			"Webpack",
+			"чат",
+			"Markdown-редактор",
+			"GitLab",
+			"файлами",
+			"документы",
+			"адаптивные",
+			"code review",
+			"production",
+			"миграцию",
+			"FreedomPay",
+			"legacy-библиотек",
+			"i18n",
+			"API-контракты",
+			"функциональные",
+			"производительность",
+			"рендеринг сложных таблиц",
+			"headless-подхода",
+			"вложенные таблицы данных"
+		]
+	},
+	"education": {
+		"title": "Образование",
+		"description": "КГЮА IT-Academy, 2021-2023, КНУ им. Ж. Баласагына, Информационные технологии и управление, бакалавр, 2023- 2024"
+	}
+}

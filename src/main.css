@@ -1,4 +1,4 @@
-@import "./markdown.css";
+@import "./reset.css";
 
 :root {
 	--font-sans: "Google Sans", sans-serif;
