@@ -5,8 +5,8 @@
 	--font-mono: "Google Sans Code", monospace;
 	--font-size-body: 16px;
 	--font-size-md: 1rem;
-	--background-primary: #ffffff;
-	--background-secondary: #fafafa;
+	--background-primary: #fafafa;
+	--background-secondary: #f7f7f7;
 	--font-color-primary: #000000;
 	--border-primary: color-mix(in oklab, #000000 35%, transparent);
 	--border-secondary: color-mix(in oklab, #000000 20%, transparent);
@@ -16,10 +16,10 @@
 .dark {
 	--background-primary: #0a0a0a;
 	--background-secondary: #111111;
-	--font-color-primary: #ffffff;
-	--border-primary: color-mix(in oklab, #ffffff 30%, transparent);
-	--border-secondary: color-mix(in oklab, #ffffff 15%, transparent);
-	--dot-pattern: color-mix(in oklab, #ffffff 10%, transparent);
+	--font-color-primary: #fafafa;
+	--border-primary: color-mix(in oklab, #fafafa 30%, transparent);
+	--border-secondary: color-mix(in oklab, #fafafa 15%, transparent);
+	--dot-pattern: color-mix(in oklab, #fafafa 10%, transparent);
 }
 
 * {

@@ -22,7 +22,7 @@ import SocialList from "./components/SocialList.vue";
 .cv {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 32px;
   flex: 1;
   width: min(982px, 100%);
   margin: 0 auto;

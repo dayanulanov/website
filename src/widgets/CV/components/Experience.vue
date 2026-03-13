@@ -52,13 +52,14 @@ const accents = experience.accent_words;
 .experience__list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 26px;
   line-height: 150%;
 }
 
 .experience__list-item {
   display: flex;
   flex-direction: column;
+  gap: 8px;
   list-style: none;
 }
 
@@ -66,6 +67,8 @@ const accents = experience.accent_words;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
   width: 100%;
 }
 

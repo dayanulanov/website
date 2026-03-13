@@ -41,7 +41,7 @@ const socialLinks = data.social_list.filter(
   justify-content: space-between;
   top: 0;
   padding: 12px 24px;
-  background-color: color-mix(in oklab, var(--background-primary) 82%, transparent);
+  background-color: color-mix(in oklab, var(--background-primary) 62%, transparent);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-primary);
